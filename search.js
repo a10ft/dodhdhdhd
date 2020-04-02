@@ -7,7 +7,7 @@ searchform.innerHTML
 
 function toWiki(){
     const inputValue = searchbox.value;
-    wikiUrl = `https://namu.wiki/Search?q=${inputValue}`;
+    wikiUrl = `https://google.com/search?q={inputValue}`;
     location.href = wikiUrl;
 }
 
